@@ -147,20 +147,20 @@
 // }
 // console.log(duplicateEncode("aadsaasscdds"));
 
-function duplicateEncode(word) {
-    let lowerCase = word.toLowerCase();
-    let str='';
-    for (let i = 0; i < lowerCase.length; i++) {
-        if (lowerCase.indexOf(lowerCase[i]) === lowerCase.lastIndexOf(lowerCase[i])) {
-            // console.log(lowerCase[i])
-            str+='(';
-        }else {
-            str+=')';
-        }
-    }
-    return str;
-    }
-console.log(duplicateEncode("ababr"));
+// function duplicateEncode(word) {
+//     let lowerCase = word.toLowerCase();
+//     let str='';
+//     for (let i = 0; i < lowerCase.length; i++) {
+//         if (lowerCase.indexOf(lowerCase[i]) === lowerCase.lastIndexOf(lowerCase[i])) {
+//             // console.log(lowerCase[i])
+//             str+='(';
+//         }else {
+//             str+=')';
+//         }
+//     }
+//     return str;
+//     }
+// console.log(duplicateEncode("ababr"));
 
 
 
@@ -211,9 +211,61 @@ console.log(duplicateEncode("ababr"));
 // }
 // console.log(towerBuilder(8));
 
+////////////////////////////QuickSort
+// let array =[2,4,4,8,8,15,1];
+
+// const qSort=(arr)=>{
+//     if(arr.length<2) {
+//         return arr
+//     }
+//
+//     const pivot = arr[Math.floor(Math.random())*arr.length];
+//     console.log(pivot);
+//     const less = arr.filter(value => value < pivot);
+//     const  greater = arr.filter(value => value> pivot);
+//     const equal = arr.filter(value => value===pivot);
+//     return [...qSort(less), ...equal,...qSort(greater)];
+//
+// };
+// qSort(array);
+// console.log(qSort(array));
 
 
 
+// const unless = (test, then) => { if(!test) then() };
+// const repeat = (numb, body) => {
+//     for (let i=0; i<numb; i++) body(i);
+// };
+// repeat(5, (n) => unless(n%2, ()=>console.log(`${n} is even`)));
+/////////////////////////////
 
+A  = new Set([1,2]);
+A2 = new Set([2,1]);
+B  = new Set();
+B.add({2:'dd',3:'dwd'});
 
+// function areEqual(s1, s2){
+//     console.log(s1.size, s2.size);
+//     let result;
+//     if(s1.size===s2.size)
+//         s2.forEach((item)=>s1.has(item)?result=true:result=false);
+//     else {
+//         result=false
+//     }
+//     return result;
+// }
+// console.log(areEqual(A,A2));
+
+////////////////////////
+
+// function maxMultiple(divisor, bound){
+//     //your code here
+//     const recursion=(d, b)=> bound%divisor===0?bound:recursion(divisor,bound--);
+//     return bound>=divisor?recursion(divisor,bound):null
+// }
+//
+// console.log(maxMultiple(37,200));
+//
+// const b = (divisor, bound) => bound-bound%divisor;
+// console.log(b(37,200));
 
