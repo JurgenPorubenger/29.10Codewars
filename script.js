@@ -259,6 +259,7 @@ B.add({2:'dd',3:'dwd'});
 ////////////////////////
 
 // function maxMultiple(divisor, bound){
+//         return bound-bound%divisor
 //     //your code here
 //     const recursion=(d, b)=> bound%divisor===0?bound:recursion(divisor,bound--);
 //     return bound>=divisor?recursion(divisor,bound):null
@@ -268,4 +269,26 @@ B.add({2:'dd',3:'dwd'});
 //
 // const b = (divisor, bound) => bound-bound%divisor;
 // console.log(b(37,200));
+/////////////////////////////////////////
 
+// function race(v1, v2, g) {
+//     // your code
+//     const hours = g/(v2-v1);
+//     console.log(hours,Math.floor(hours), (hours-Math.floor(hours))*60 )
+//     return [
+//         Math.floor(hours),
+//         Math.floor((hours-Math.floor(hours))*60),
+//         Math.round((((hours-Math.floor(hours))*60)-Math.floor((hours-Math.floor(hours))*60))*60)
+//     ];
+// }
+// console.log(race(80, 100, 40));
+
+function likes(names) {
+    // TODO
+    return names.length===0?
+        new Array(0):
+        names.length===1?
+            names[0]:
+            names.reduce((prev,name,i,arr)=>`${prev} and ${name} like this`)
+}
+console.log(likes(['Jacob', 'Alex', 'John']));
