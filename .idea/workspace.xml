@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1ebb8e25-1136-4d19-b1d1-727e636bbf7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,9 @@
       <workItem from="1579596188054" duration="3924000" />
       <workItem from="1581333966293" duration="10742000" />
       <workItem from="1581510006706" duration="5447000" />
-      <workItem from="1581520592850" duration="787000" />
+      <workItem from="1581520592850" duration="848000" />
+      <workItem from="1581591356825" duration="5000" />
+      <workItem from="1581667426407" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="solved two task">
       <created>1581347702887</created>
@@ -68,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581347702887</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="solved some task">
+      <created>1581521419020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581521419020</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="solved two task" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved two task" />
+    <MESSAGE value="solved some task" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved some task" />
   </component>
 </project>
